@@ -1,4 +1,6 @@
-# pdf-to-gif
+# 💼 PDF to GIF 🎞
+
+*This repository for generate GIF from PDF files*
 
 Generate GIF from PDF files, easy. Inspired from [freeman's pdf-to-png package](https://github.com/freeman-lab/pdf-to-png)
 
@@ -6,7 +8,7 @@ Freeman's package does not capture all of pages but we need, then I did.
 
 **This package depends on imagemagick for generating GIF.**
 
-## Programmatic Usage
+# Programmatic Usage
 
 ```javascript
 require('pdf-to-gif')({
@@ -18,6 +20,6 @@ require('pdf-to-gif')({
 })
 ```
 
-*Enjoy.* :+1:
+_Enjoy._ :+1:
 
 ![gif](assets/enjoy.gif)
