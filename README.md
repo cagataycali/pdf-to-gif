@@ -6,7 +6,7 @@ Freeman's package does not capture all of pages but we need, then I did.
 
 **This package depends on imagemagick for generating GIF.**
 
-# Programmatic Usage
+## Programmatic Usage
 
 ```javascript
 require('pdf-to-gif')({
