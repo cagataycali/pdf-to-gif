@@ -1,25 +1,26 @@
 {
   "name": "pdf-to-gif",
-  "version": "1.0.3",
-  "description": "convert PDF to GIF",
+  "version": "1.0.0",
+  "description": "Generate GIF from PDF files, easy.",
   "main": "index.js",
-  "bin": {
-    "pdf-to-png": "cli.js"
-  },
-  "scripts": {
-    "test": "npm run tape && standard",
-    "tape": "tape test.js | tap-spec",
-    "example": "node example.js"
-  },
-  "author": "freeman-lab",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/freeman-lab/pdf-to-png.git"
-  },
-  "license": "MIT",
   "dependencies": {
     "electron-spawn": "^4.1.0",
     "electron-prebuilt": "^0.37.5",
     "pdfjs-dist": "1.4.205"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cagataycali/pdf-to-gif.git"
+  },
+  "keywords": [
+    "pdf",
+    "to",
+    "gif"
+  ],
+  "author": "Çağatay Çalı",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cagataycali/pdf-to-gif/issues"
+  },
+  "homepage": "https://github.com/cagataycali/pdf-to-gif#readme"
 }
